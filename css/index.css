@@ -1,0 +1,355 @@
+
+ html
+ ,body {
+    width:100% ;
+    height:100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+ }
+ body {
+    scroll-behavior: smooth;
+}
+/* navbar */
+.fas {
+    font-size: 3em;
+}
+.navbar-brand {
+    font-size: 2em;
+}
+.nav-link:hover {
+ background-color: rgb(247, 96, 96);
+ border-radius: 20%;
+ -webkit-border-radius: 20%;
+ -moz-border-radius: 20%;
+ -ms-border-radius: 20%;
+ -o-border-radius: 20%;
+ font-variant: small-caps;
+}
+.dropdown-menu{
+    transition: padding-leftt 3s;
+    -webkit-transition: padding-leftt 3s;
+    -moz-transition: padding-leftt 3s;
+    -ms-transition: padding-leftt 3s;
+    -o-transition: padding-leftt 3s;
+   
+}
+.dropdown-item:hover {
+    background-color: rgb(247, 96, 96);
+    font-variant: small-caps;
+    padding-left:30px;
+}
+/* end-navbar */
+
+/* carousel */
+.carousel-item {
+    height:90vh;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+
+
+.bk {
+    background-image: url(../imgs/women-001.jpg);
+    background-size: 100% 100%;
+
+}
+.bk1 {
+    background-image: url(../imgs/men-001.jpg);
+    background-size: 100% 100%;
+}
+.bk2{
+    background-image: url(../imgs/kid-001.jpg);
+    background-size: 100% 100%;
+}
+.bk3 {
+    background-image: url(../imgs/accessories-001.jpg);
+    background-size: 100% 100%;
+}
+/* end-carousel */
+ /* heading */
+.fs {
+    font-size: 3em;
+}
+.text-secondary {
+    font-size: 1.5em;
+   
+}
+
+ /* end  heading */
+
+ /* hot deal */
+.w-100 {
+  
+    object-position: top;
+    -o-object-fit: contain;
+}
+.h6 {
+    font-size: 3%;
+}
+.align {
+    margin-left: -138px;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    margin-top: -2em;
+}
+.align1 {
+ 
+    filter: brightness(50%);
+    margin-left: -9em;
+    margin-top: -2em;
+}
+
+
+ p.text {
+    font-size: 1.5em;
+ }
+ .hidden-text {
+    display: none;
+}
+
+ .hov:hover + .animat {
+     display: block;
+    animation: forward 1s linear ,opacity 1s linear  ;
+    -webkit-animation: forward 1s linear ,opacity 1s linear  ;
+}
+
+@keyframes forward {
+
+    0% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        
+}
+ 50% {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    opacity:1 ;
+    
+}
+100% {
+    opacity: 0;
+}
+} 
+ /* Contact Information */
+
+ li {
+    list-style: none;
+
+ }
+ /* women css */
+ .landing {
+    background-image: url(../imgs/products-background.jpg);
+    background-size:cover;
+     height:70vh;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    
+}
+.center {
+    top: 5em;
+   
+}
+.center1 {
+    top: 15em;
+   
+}
+/* mobile */
+@media (max-width:767px) {
+  .landing {
+    height: 90vh;
+  }
+}
+/* small screen */
+@media (max-width:767px) {
+    .landing {
+        height: 80vh;
+      }
+    }
+ /* meduim screen */
+    @media (min-width:768px) and (max-width:991px) {
+      .landing {
+        height: 90vh;
+      }
+    }
+    /* start card */
+.row {
+    transition: transform .05s ease-in;
+    -webkit-transition: transform .05s ease-in;
+    -moz-transition: transform .05s ease-in;
+    -ms-transition: transform .05s ease-in;
+    -o-transition: transform .05s ease-in;
+}
+.hov:hover {
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    background-color: rgb(57, 56, 56);
+}
+.text-dark-emphasis p{
+    font-weight: bold;
+}
+ .landing1 {
+    background-image: url(../imgs/about-us-page-heading.jpg);
+    background-size:cover;
+    height:50vh;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+.icons {
+    font-size: 2em;
+    padding-right: 1em;
+}
+
+   /* custom screen */
+      @media (max-width:1199px)  {
+       .img {
+        width:270px;
+        height: 250px;
+        gap:6px;
+       }
+      }
+      /* small screen */
+@media (max-width:767px) {
+   .textc {
+   width: 350px;
+   text-align: center;
+   }
+    }
+.card-title {
+  font-size: 2em;
+  letter-spacing: 5px;
+}
+.login {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-right: 3px solid rgb(122, 121, 119);
+    border-bottom: 3px solid rgb(122, 121, 119);
+}
+.sign-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 800px;
+    height: 700px;
+    
+}
+.margin {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 75%;
+}
+.flex input {
+    border: 2px solid rgb(158, 155, 155);
+    margin-bottom: 4px;
+    border-right: none;
+}
+.flex-row {
+    display: flex;
+   justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+
+.edit {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width:75% ;
+
+  margin-left: 3em;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.flex-row:hover a {
+    font-weight: bold;
+}
+/* mobile */
+@media (max-width:767px) {
+  .sign-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 320px;
+    height: 700px;
+
+  }
+ .margin {
+    display: flex;
+    justify-content: center;
+ }
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 800px;
+    height: 741px;
+    font-weight: 20px;
+    font-size: 1em;
+    
+}
+.edition {
+ display: flex;
+ flex-direction: row;
+ justify-content:flex-start ;
+
+}
+.margin2 {
+    margin-left: -6em;
+}
+.margin3 {
+    margin-left: -8em;
+}
+.centering {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 75%;
+}
+input {
+    border: 2px solid rgb(158, 155, 155);
+    border-right: none;
+    
+}
+/* mobile */
+@media (max-width:767px) {
+    .sign-up {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 200px;
+      height: 741px;
+      margin-left: 0%;
+  
+    }
+  
+    }
